@@ -1,0 +1,43 @@
+git --version
+ls -ltr    (to see the folders in the dir)
+git --help
+git config --global user.name "Tanzeel Ur Rehman"
+git config --global user.email "khawajatanzeel.55221@gmail.com"
+git config --list
+git clear
+pwd
+mkdir Git_Demo
+cd Git_Demo/
+mkdir FirstRepo
+cd FirstRepo/
+git init     (To initiate the repository in the dir (a folder with name git will be created))
+touch master.txt
+notepad master.txt
+git status     (to check the status)
+git add .     (To add all the new files into the repository)
+git commit -m "This is my first Git Commit        (to commit the changes)
+git log       (to get the history)
+rom github.com/new)
+git remote add origin https://github.com/KhawajaTanzeelUrRehman/FirstRepo.git
+git remote -v
+git push -u origin master   (push content from local repository to the server)
+------------------------------------------------------------------------------
+ssh-keygen -t rsa -C khawajatanzeel.55221@gmail.com
+ssh -T git@github.com
+git clone (link ssh from the github)  (to clone the repository form the server)
+git push -u origin main
+--------------------------------------------------------------------------------
+(For go back into the history)
+git log --pretty=oneline
+git reset --soft (code from the commit number)(to alter commit history and went back it will not change the files do only when it is not added to the server)
+git revert (code from the commit number)(to delete a file from local machine)
+-----------------------------------------------------------------------------------
+git branch (branch name)  (to create a new branch)
+git puch -u origin New_Branch
+git branch -v (to see the branches present)
+git branch -av (to see all branches present)
+git checkout (branch name)  (to change the branch (just like master))
+git merge (branch name) (to merge the two branches)
+git branch -D (branch name)  (to delete a branch locally)
+git push origin --delete (branch name ) (to delete the branch from the server)
+--------------------------------------------------------------------------------
