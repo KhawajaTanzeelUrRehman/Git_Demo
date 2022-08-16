@@ -3,6 +3,8 @@ ls -ltr    (to see the folders in the dir)
 git --help
 git config --global user.name "Tanzeel Ur Rehman"
 git config --global user.email "khawajatanzeel.55221@gmail.com"
+git init (to create hidden git folder)
+touch .gitignore (to create a file that container folders to be ignored by the git)
 git config --list
 git clear
 pwd
